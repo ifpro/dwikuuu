@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happy Birthday, Ex! - Kartu Interaktif</title>
+    <title>Halo Dwi Safitri,-</title>
     
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -61,7 +61,8 @@
         
         .intro { z-index: 100; display: flex; flex-direction: column; justify-content: center; }
         .main-content { position: relative; } 
-        .video-page { transform: rotateY(180deg); opacity: 0; pointer-events: none; } 
+        /* Halaman video dihapus */
+        /* .video-page { transform: rotateY(180deg); opacity: 0; pointer-events: none; } */ 
 
         /* --- Slide / Halaman Kartu --- */
         .slide {
@@ -125,7 +126,7 @@
         }
 
         /* --- Tombol --- */
-        .next-btn, .start-btn, .send-btn, .video-btn {
+        .next-btn, .start-btn, .send-btn { /* video-btn dihapus */
             background-color: var(--primary-color);
             color: #fff;
             border: 2px solid var(--secondary-color);
@@ -138,7 +139,7 @@
             font-weight: bold;
         }
         
-        .next-btn:hover, .start-btn:hover, .send-btn:hover, .video-btn:hover {
+        .next-btn:hover, .start-btn:hover, .send-btn:hover { /* .video-btn:hover dihapus */
             background-color: var(--secondary-color);
             transform: scale(1.05);
         }
@@ -161,9 +162,11 @@
         }
 
         /* --- Video Container --- */
+        /* Kontainer video dihapus */
+        /*
         .video-container {
             position: relative;
-            padding-top: 56.25%; /* 16:9 Aspect Ratio */
+            padding-top: 56.25%; 
             height: 0;
             overflow: hidden;
             max-width: 100%;
@@ -181,6 +184,7 @@
             height: 100%;
             border: none;
         }
+        */
         
         /* --- Responsif Media Queries --- */
         @media (max-width: 600px) {
@@ -218,7 +222,7 @@
             }
             
             /* 5. Tombol */
-            .next-btn, .start-btn, .send-btn, .video-btn {
+            .next-btn, .start-btn, .send-btn {
                 padding: 10px 15px;
                 font-size: 0.9em;
             }
@@ -238,8 +242,8 @@
     </audio>
 
     <div id="intro-screen" class="container intro">
-        <div class="title animate__animated animate__fadeInDown">Halo Ex Hehehe!</div>
-        <div class="message animate__animated animate__fadeInUp">Kasih masukki namata biar bisaki lanjut:</div>
+        <div class="title animate__animated animate__fadeInDown">Halo Dwi Safitrikuu!</div>
+        <div class="message animate__animated animate__fadeInUp">Nama Kamu Biar bisalanjat:</div>
         <input type="text" id="userName" placeholder="*Nama Lengkap" style="padding: 12px; font-size: 1.1em; border-radius: 8px; border: 1px solid #ffabab; width: calc(100% - 24px); box-sizing: border-box; margin-bottom: 15px;">
         <button class="start-btn animate__animated animate__bounceIn" onclick="startExperience()">Start <i class="fas fa-play"></i></button>
         <p style="font-size: 0.8em; color: gray; margin-top: 40px;">Dibuat Oleh PT. Inspirasi Cemerlang Indonesia (Andi Irfan Maulana) | All Rights reserved</p>
@@ -251,62 +255,73 @@
             <div class="slide active" data-animation="bounceInDown">
                 <div class="title animate__animated">Untukmu yang Berbahagia, <span id="displayName"></span>!</div>
                 <div class="message animate__animated">
-                    Hari ini adalah hari yang sangat spesial, karena ini adalah hari lahirmu. Aku bersyukur atas setiap detik yang pernah kita lewati bersama. Kamu adalah anugrah yang pernah hadir dalam hidupku.
+                    Setelah sekian banyak 'Telepat' yang terasa hampa, aku sempat berpikir mungkin pencarian ini harus kuakhiri. Lalu kamu muncul. Entah kenapa, di tengah lelahnya hati, saat mendengarmu berbicara itu seperti janji kecil yang tak terucapkan. Jadi, dengan sisa keberanian yang ada, aku meminta user igmu. Semoga kali ini, 'telepat' ini bukan sekadar algoritma, tapi awal dari cerita yang dulu sempat hilang keyakinannya.
                 </div>
                 <div class="heart animate__animated">❤️</div>
                 <div class="image animate__animated">
-                    <img src="foto1.png" alt="Your Love's Picture 1">
+                    <img src="dwi 1.jpg" alt="Your Love's Picture 1">
                 </div>
                 <div class="signature animate__animated">With all my hopes, Andi Irfan Maulana</div>
                 <button class="next-btn animate__animated" onclick="nextSlide()">Next <i class="fas fa-arrow-right"></i></button>
             </div>
 
             <div class="slide" data-animation="rubberBand">
-                <div class="title animate__animated">Kenangan Manis</div>
+                <div class="title animate__animated">Mulai Mengenalmu</div>
                 <div class="message animate__animated">
-                    Di hari ini, mari kita kembali mengingat semua kenangan manis yang pernah kita lalui. Terima kasih telah menjadi bagian dari hidupku, walaupun sekarang kita mungkin sudah berbeda tujuan.
+                    "Hai,
+Setelah semua obrolan panjang kita, dari yang sekadar 'telepati' di aplikasi ini, berlanjut ke tukar-menukar cerita di Instagram, bahkan sampai malam-malam penuh tawa dan keheningan dalam sleep call... aku pikir kita sudah lebih dari sekadar kenalan.
+Saat aku meminta TikTok atau bahkan nomor WhatsApp-mu, itu bukan karena terburu-buru, tapi karena aku ingin semua 'dunia' kita terhubung. Aku ingin kamu tahu, betapa berharganya setiap detik yang kita habiskan bersama—betapa langkah kecil itu terasa seperti lompatan besar dalam hidupku yang sepi.
                 </div>
                 <div class="heart animate__animated">💖</div>
                 <div class="image animate__animated">
-                    <img src="foto2.png" alt="Your Love's Picture 2">
+                    <img src="dwi6.jpg" alt="Your Love's Picture 2">
                 </div>
-                <div class="signature animate__animated">Forever yours, Fatri Utami Zeizar</div>
+                <div class="signature animate__animated">Forever yours, Dwi Safitrikuu</div>
                 <button class="next-btn animate__animated" onclick="nextSlide()">Next <i class="fas fa-arrow-right"></i></button>
             </div>
-
-            <div class="slide" data-animation="rollIn">
-                <div class="title animate__animated">Selalu Dihati</div>
+            
+            <div class="slide" data-animation="lightSpeedIn">
+                <div class="title animate__animated">Mulai Mengenalmu Part 2</div>
                 <div class="message animate__animated">
-                    Meskipun kita mungkin tidak lagi bersama, kamu akan selalu memiliki tempat di hatiku. Terima kasih telah memberi warna dalam hidupku. Dinonton nah video yang dibawah sampai selesai.
+                    Kamu bukan hanya sekadar obrolan di layar. Kamu adalah alasan aku tersenyum sebelum tidur dan alasan aku bersemangat bangun di pagi hari. Setiap cerita darimu, baik tentang hari yang melelahkan atau mimpi-mimpi kecilmu, semuanya terasa penting. Aku merasa kita membangun sesuatu yang nyata, di tengah dunia maya yang seringkali menipu. Aku ingin terus mengenalmu, bukan hanya sebagai 'teman sleep call', tapi sebagai bagian utuh dari masa depanku.
                 </div>
-                <div class="heart animate__animated">💞</div>
+                <div class="heart animate__animated">✨</div>
                 <div class="image animate__animated">
-                    <img src="foto3.png" alt="Your Love's Picture 3">
+                    <img src="dwi7.jpg" alt="Your Love's Picture 3">
                 </div>
-                <button class="next-btn video-btn animate__animated" onclick="showVideoPage()"> >>DINONTON SAMPAI SELESAI<< <i class="fas fa-video"></i></button>
+                <div class="signature animate__animated">With all my heart, Andi Irfan Maulana</div>
+                <button class="next-btn animate__animated" onclick="nextSlide()">Next <i class="fas fa-arrow-right"></i></button>
             </div>
-        </div>
+            
+            <div class="slide" data-animation="wobble">
+                <div class="title animate__animated">Lanjutkan Cerita Kita</div>
+                <div class="message animate__animated">
+                    Kini, semua yang telah kita lalui—tawa, sedikit salah paham, hingga rencana-rencana kecil yang kita rajut—telah mengantarkanku pada satu keyakinan: Aku ingin menjadikan semua ini lebih dari sekadar kenangan. Aku ingin menjagamu, dan melihatmu bertumbuh bersamaku. Aku tahu mungkin ini terlalu cepat, tapi saat bersamamu, waktu terasa berhenti. Terima kasih sudah menjadi kejutan terbaik dalam hidupku, Dwi.
+                </div>
+                <div class="heart animate__animated">🥂</div>
+                <div class="image animate__animated">
+                    <img src="dwi3.jpg" alt="Your Love's Picture 4">
+                </div>
+                <div class="signature animate__animated">Always thinking of you, Dwi Safitrikuu</div>
+                <button class="next-btn send-btn animate__animated" onclick="sendGiftRequest()">Hubungi Aku Sekarang (WA) <i class="fab fa-whatsapp"></i></button>
+            </div>
 
-        <div class="container video-page" id="video-page">
-            <div class="title animate__animated animate__fadeInDown">Pesan Video Spesial 🎥</div>
-            <div class="message animate__animated animate__fadeIn">Tontonlah dengan hati.</div>
-            <div class="video-container animate__animated animate__zoomIn">
-                <video controls id="mainVideo">
-                    <source src="awaldanakhir.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
             </div>
-            <button class="next-btn" onclick="backToSlides()">Kembali <i class="fas fa-undo"></i></button>
-            <button class="send-btn" onclick="sendGiftRequest()">Spesial Request (WA) <i class="fab fa-whatsapp"></i></button>
+
         </div>
-    </div>
 
     <script>
         const cardWrapper = document.getElementById('card-wrapper');
         const introScreen = document.getElementById('intro-screen');
         const backgroundMusic = document.getElementById("background-music");
-        const mainVideo = document.getElementById("mainVideo");
-        const slides = document.querySelectorAll(".slide");
+        
+        // mainVideo dihapus
+        // const mainVideo = document.getElementById("mainVideo");
+        
+        // videoPage dihapus
+        // const videoPage = document.getElementById('video-page'); 
+
+        const slides = document.querySelectorAll(".slide"); 
         let currentSlideIndex = 0;
         
         // --- Utility untuk Animasi ---
@@ -367,38 +382,20 @@
         }
 
         function nextSlide() {
-            if (currentSlideIndex < slides.length - 1) {
+            // Memperbarui kondisi batas akhir. Sekarang ada 4 slide (indeks 0 hingga 3).
+            if (currentSlideIndex < slides.length - 1) { 
                 currentSlideIndex++;
                 updateSlideDisplay();
             }
+            // Setelah slide terakhir, tidak ada aksi (video page sudah dihapus)
         }
 
-        function showVideoPage() {
-            // Efek 3D Flip
-            cardWrapper.style.transform = "rotateY(180deg)";
-            
-            videoPage.style.opacity = '1';
-            videoPage.style.pointerEvents = 'auto';
-            
-            mainVideo.load(); 
-            backgroundMusic.pause();
-        }
-
-        function backToSlides() {
-            // Efek 3D Flip Kembali
-            cardWrapper.style.transform = "rotateY(0deg)";
-            
-            videoPage.style.opacity = '0';
-            videoPage.style.pointerEvents = 'none';
-
-            mainVideo.pause(); 
-            backgroundMusic.play().catch(e => console.log("Music play failed:", e));
-        }
+        // Fungsi showVideoPage() dan backToSlides() DIHAPUS
 
         function sendGiftRequest() {
             var userName = document.getElementById("userName").value;
             // Pastikan nomor WhatsApp di format internasional (dengan kode negara)
-            var url = "https://api.whatsapp.com/send?phone=+6285345674445&text=" + encodeURIComponent("Happy Birthday! dihari spesialta mauki kado apa? " + userName);
+            var url = "https://api.whatsapp.com/send?phone=+6285158571195&text=" + encodeURIComponent("Halo Dwi, saya sudah membaca semua pesannya! Mari kita lanjutkan cerita ini. " + userName);
             window.open(url, "_blank");
         }
         
