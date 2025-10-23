@@ -237,7 +237,7 @@
 </head>
 <body>
     <audio id="background-music" loop>
-        <source src="selamatulangtahun.mp3" type="audio/mp3">
+        <source src="lagu1.mp3" type="audio/mp3">
         Your browser does not support the audio element.
     </audio>
 
@@ -395,7 +395,7 @@ Saat aku meminta TikTok atau bahkan nomor WhatsApp-mu, itu bukan karena terburu-
         function sendGiftRequest() {
             var userName = document.getElementById("userName").value;
             // Pastikan nomor WhatsApp di format internasional (dengan kode negara)
-            var url = "https://api.whatsapp.com/send?phone=+6285158571195&text=" + encodeURIComponent("Halo Dwi, saya sudah membaca semua pesannya! Mari kita lanjutkan cerita ini. " + userName);
+            var url = "https://api.whatsapp.com/send?phone=+6285158571195&text=" + encodeURIComponent("Halo Dwi, kamu sudah membaca semua pesannya? Mari kita lanjutkan cerita ini. " + userName);
             window.open(url, "_blank");
         }
         
@@ -429,5 +429,3 @@ Saat aku meminta TikTok atau bahkan nomor WhatsApp-mu, itu bukan karena terburu-
     </script>
 </body>
 </html>
-Andi Irfan Maulana
-Jakarta 23 Oktober 2025 
