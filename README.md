@@ -1,7 +1,3 @@
-Dibuat Oleh PT. Inspirasi Cemerlang Indonesia 
-( Andi Irfan Maualana )
-All Rights reserved
-<!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
@@ -436,3 +432,6 @@ All Rights reserved
     </script>
 </body>
 </html>
+Dibuat Oleh PT. Inspirasi Cemerlang Indonesia 
+( Andi Irfan Maualana )
+All Rights reserved
