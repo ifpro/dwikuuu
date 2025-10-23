@@ -429,6 +429,5 @@ Saat aku meminta TikTok atau bahkan nomor WhatsApp-mu, itu bukan karena terburu-
     </script>
 </body>
 </html>
-Dibuat Oleh PT. Inspirasi Cemerlang Indonesia 
-( Andi Irfan Maualana )
-All Rights reserved
+Andi Irfan Maulana
+Jakarta 23 Oktober 2025 
